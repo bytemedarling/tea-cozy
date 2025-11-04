@@ -44,6 +44,16 @@ header {
     text-align: right;
 }
 
+.navigation li a {
+    color: seashell;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
 /* ---- Middle Section Styling ---- */
 #mission {
     background-image: url("../CCP/background.jpg");
