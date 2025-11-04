@@ -15,6 +15,7 @@ header {
     background-color: black;
     opacity: 0.9;
     padding: 10px 50px;
+    width: 100%;
     box-sizing: border-box;
     z-index: 1000;
 }
@@ -28,4 +29,5 @@ header {
 .navigation li {
     text-decoration: underline;
     color: seashell;
+    text-align: right;
 }
