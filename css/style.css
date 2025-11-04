@@ -14,9 +14,18 @@ header {
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    padding: 10px 50px;
+    box-sizing: border-box;
+    z-index: 1000;
 }
 
 /* ---- Navigation Styling Below ---- */
+.navigation ul {
+    list-style: none;
+    margin: 0; padding: 0;
+    display: flex; gap: 20px;
+}
 .navigation li {
     text-decoration: underline;
+    color: seashell;
 }
