@@ -56,3 +56,11 @@ header {
 }
 
 /* ---- Middle Section Styling ---- */
+.mission-info {
+    background-color: black;
+    opacity: 0.9;
+    color: seashell;
+    text-align: center;
+    width: 1200px;
+    padding: 1.5rem;
+}
