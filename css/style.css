@@ -34,7 +34,7 @@ header {
 
 /* ---- Middle Section Styling ---- */
 #mission {
-    background-image: url("CCP/background.jpg");
+    background-image: url("../CCP/background.jpg");
     background-size: cover;
     background-position: center;
     height: 700px;
