@@ -1,3 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: black;
+    color: seashell;
+    padding: 70px;
+}
+
 /* ---- Logo Styling Below ---- */
 .logo {
     height: 50px;
@@ -18,6 +29,7 @@ header {
     width: 100%;
     box-sizing: border-box;
     z-index: 1000;
+    border-bottom: 1px solid seashell;
 }
 
 /* ---- Navigation Styling Below ---- */
@@ -40,10 +52,11 @@ header {
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
-    width: 1200px;
-    height: 700px;
+    width: 75rem;
+    height: 43.75rem;
     margin: 0 auto;
     display: flex;
+    padding: 0 1rem;
 }
 
 .mission-info {
@@ -51,6 +64,6 @@ header {
     opacity: 0.9;
     color: seashell;
     text-align: center;
-    max-width: 1200px;
-    padding: 20px;
+    width: 1200px;
+    padding: 1.5rem;
 }
