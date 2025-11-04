@@ -34,10 +34,11 @@ header {
 
 /* ---- Middle Section Styling ---- */
 #mission {
-    background-image: url("CCP/background.jpg");
-    background-position: center;
-    display: flex;
+    background-image: url("CCP/background.JPG");
     background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -47,6 +48,6 @@ header {
     opacity: 0.9;
     color: seashell;
     text-align: center;
-    max-width: 1200px;
-    max-height: 700px;
+    width: 1200px;
+    padding: 20px;
 }
