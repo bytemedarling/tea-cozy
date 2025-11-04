@@ -1,0 +1,22 @@
+/* ---- Logo Styling Below ---- */
+.logo {
+    height: 50px;
+    padding: 10px;
+}
+
+/* ---- Header Styling Below ---- */
+header {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* ---- Navigation Styling Below ---- */
+.navigation li {
+    text-decoration: underline;
+}
