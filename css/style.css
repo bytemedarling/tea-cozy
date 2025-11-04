@@ -37,10 +37,12 @@ header {
     background-image: url("../CCP/background.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 1200px;
     height: 700px;
+    margin: 0 auto;
     display: flex;
 }
 
