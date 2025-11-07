@@ -58,11 +58,10 @@ header {
     background-image: url("../CCP/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    height: 43.75rem;
-    padding-top: 20px;
-
+    margin-top: 70px;
+    max-height: 43.75rem;
 }
-
+/*
 .mission-info {
     background-color: black;
     opacity: 0.9;
@@ -72,3 +71,4 @@ header {
     max-width: 1200px;
     padding: 1.5rem;
 }
+*/
