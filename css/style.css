@@ -34,7 +34,7 @@ header {
 /* ---- Navigation Styling Below ---- */
 .navigation ul {
     list-style: none;
-    justify-content: left;
+    justify-content: left space-between;
     display: flex;
 }
 .navigation li {
