@@ -34,12 +34,11 @@ header {
 /* ---- Navigation Styling Below ---- */
 .navigation ul {
     list-style: none;
-    justify-content: left;
+    justify-content: left space-between;
     display: flex;
 }
 .navigation li {
     text-decoration: underline;
-    justify-content: space-between;
     color: seashell;
 }
 
@@ -50,7 +49,7 @@ header {
 }
 
 .navigation a:hover {
-    text-decoration: underline;
+    color: lightgreen;
 }
 
 /* ---- Middle Section Styling ---- */
