@@ -18,7 +18,6 @@ body {
 header {
     display: flex;
     position: fixed;
-    justify-content: space-between;
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
@@ -34,6 +33,7 @@ header {
 /* ---- Navigation Styling Below ---- */
 .navigation ul {
     list-style: none;
+    justify-content: space-between;
     text-align: right;
     display: flex;
 }
@@ -52,6 +52,15 @@ header {
 }
 
 /* ---- Middle Section Styling ---- */
+#mission {
+    background-image: url("../CCP/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 43.75rem;
+
+
+}
+
 .mission-info {
     background-color: black;
     opacity: 0.9;
