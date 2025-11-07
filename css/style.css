@@ -59,6 +59,7 @@ header {
     opacity: 0.9;
     color: seashell;
     justify-content: center;
-    width: 1200px;
+    align-items: center;
+    max-width: 1200px;
     padding: 1.5rem;
 }
