@@ -34,11 +34,12 @@ header {
 /* ---- Navigation Styling Below ---- */
 .navigation ul {
     list-style: none;
-    justify-content: left space-between;
+    justify-content: left;
     display: flex;
 }
 .navigation li {
     text-decoration: underline;
+    justify-content: space-between;
     color: seashell;
 }
 
