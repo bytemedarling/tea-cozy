@@ -18,6 +18,7 @@ body {
 header {
     display: flex;
     position: fixed;
+    justify-content: space-between;
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
@@ -33,7 +34,6 @@ header {
 /* ---- Navigation Styling Below ---- */
 .navigation ul {
     list-style: none;
-    justify-content: space-between;
     text-align: right;
     display: flex;
 }
@@ -45,7 +45,6 @@ header {
 .navigation li a {
     color: seashell;
     text-decoration: none;
-    margin-left: 20px;
 }
 
 .navigation a:hover {
