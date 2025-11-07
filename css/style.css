@@ -56,9 +56,7 @@ header {
 /* ---- Middle Section Styling ---- */
 #mission {
     background-image: url("../CCP/background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    max-height: 43.75rem;
+    
 }
 
 /*
