@@ -55,19 +55,9 @@ header {
 
 /* ---- Middle Section Styling ---- */
 #mission {
-    background-image: url("../CCP/background.jpg");
+    background-image: url("CCP/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     max-height: 700px;
 }
 
-/*
-.mission-info {
-    background-color: black;
-    opacity: 0.9;
-    color: seashell;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    padding: 1.5rem;
-} */
