@@ -18,7 +18,6 @@ body {
 header {
     display: flex;
     position: fixed;
-    justify-content: space-between;
     font-family: Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
