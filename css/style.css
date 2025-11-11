@@ -111,8 +111,7 @@ header {
 
 .featured {
     display: flex;
-    max-width: 1000px;
-    width: 100%;
+    text-align: center;
     background-color: black;
     color: seashell;
     opacity: 0.9;
