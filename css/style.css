@@ -65,7 +65,9 @@ header {
 }
 
 .mission-info {
-    max-width: 1200px;
+    text-align: center;
+    background-color: black;
     color: seashell;
     opacity: 0.9;
+    max-width: 1200px;
 }
