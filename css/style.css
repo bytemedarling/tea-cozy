@@ -65,7 +65,7 @@ header {
     background-image: url("../CCP/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    max-height: 43.75rem;
+    height: 43.75rem;
     width: 100%;
     margin-top: 69px;
     display: flex;
