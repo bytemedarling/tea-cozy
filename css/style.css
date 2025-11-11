@@ -59,7 +59,7 @@ header {
     background-repeat: no-repeat;
     height: 43.75rem;
     width: 100%;
-    padding-top: 69px;
+    margin-top: 69px;
     display: flex;
     justify-content: center;
     align-items: center;
