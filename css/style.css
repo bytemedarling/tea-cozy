@@ -127,6 +127,7 @@ header {
   text-align: center;
 }
 
+/* -- Text Styling for Tea Section -- */
 .featured {
     text-align: center;
     font-family: Helvetica;
@@ -137,10 +138,23 @@ header {
 }
 
 /* ---- Locations Section ---- */
+#locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .location-background {
     background-image: url("../CCP/locations.jpg");
     background-position: center;
     background-repeat: no-repeat;
     max-width: 500px;
     width: 100%;
+}
+
+.location-info {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
 }
