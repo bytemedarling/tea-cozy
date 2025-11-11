@@ -161,6 +161,22 @@ header {
     opacity: 0.9;
 }
 
+/* ---- Location Card Styling ---- */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.cards {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /* ---- Footer Styling ---- */
 footer {
     text-align: left;
