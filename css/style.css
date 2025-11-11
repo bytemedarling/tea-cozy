@@ -54,12 +54,20 @@ header {
 
 /* ---- Middle Section Styling ---- */
 #mission {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.mission-background {
     background-image: url("../CCP/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     height: 43.75rem;
     width: 100%;
-    margin-top: 69px;
+    padding-top: 69px;
     display: flex;
     justify-content: center;
     align-items: center;
