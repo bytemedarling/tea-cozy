@@ -159,6 +159,7 @@ header {
     color: seashell;
     text-align: center;
     opacity: 0.9;
+    padding-bottom: 15px;
 }
 
 /* ---- Location Card Styling ---- */
@@ -175,6 +176,10 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: seashell;
+    opacity: 1;
+    width: 18.75rem;
+    padding: 40px;
 }
 
 /* ---- Footer Styling ---- */
