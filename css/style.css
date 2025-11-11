@@ -81,3 +81,18 @@ header {
     opacity: 0.9;
     width: 1200px;
 }
+
+/* ----- Tea Section Styling ---- */
+#tea {
+    display: flex;
+    width: 1000px;
+}
+
+.card {
+    height: 12.5rem;
+    width: 18.75rem;
+}
+
+.card p {
+    margin-top: 10px;
+}
