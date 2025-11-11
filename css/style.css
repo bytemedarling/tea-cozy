@@ -5,7 +5,7 @@ html {
 body {
     margin: 0;
     background: black;
-    padding-top: 70px;
+    padding-top: 69px;
 }
 
 /* ---- Logo Styling Below ---- */
@@ -56,11 +56,10 @@ header {
 /* ---- Middle Section Styling ---- */
 #mission {
     background-image: url("../CCP/background.jpg");
-    background-position: center top;
+    background-position: center;
     background-repeat: no-repeat;
-    padding-top: 70px;
-    max-height: 43.75rem;
-    max-width: 75rem;
+    height: 100vh;
+    width: 100%;
 }
 /*
 .mission-info {
