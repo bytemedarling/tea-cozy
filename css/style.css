@@ -165,5 +165,7 @@ header {
 footer {
     text-align: left;
     color: seashell;
+    font-size: 22px;
+    font-family: Helvetica;
     opacity: 0.9;
 }
