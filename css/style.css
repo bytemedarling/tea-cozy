@@ -85,10 +85,10 @@ header {
 
 /* ----- Tea Section Styling ---- */
 #tea {
-    display: flex;
     justify-content: center;
     max-width: 1000px;
     width: 100%
+
 }
 
 .card {
