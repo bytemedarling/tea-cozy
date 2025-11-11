@@ -57,12 +57,14 @@ header {
     background-image: url("../CCP/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 700px;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mission-info {
-    justify-content: center;
     max-width: 1200px;
     color: seashell;
     opacity: 0.9;
