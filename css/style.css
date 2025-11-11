@@ -169,3 +169,12 @@ footer {
     font-family: Helvetica;
     opacity: 0.9;
 }
+
+.footer {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    height: 12.5rem;
+}
