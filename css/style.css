@@ -164,4 +164,6 @@ header {
 /* ---- Footer Styling ---- */
 footer {
     text-align: left;
+    color: seashell;
+    opacity: 0.9;
 }
