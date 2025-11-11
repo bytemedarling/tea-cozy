@@ -166,7 +166,7 @@ header {
 .cards-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center
     gap: 40px;
 }
 
@@ -180,6 +180,12 @@ header {
     opacity: 1;
     width: 18.75rem;
     padding: 40px;
+}
+
+.cards h3, .cards p {
+    margin: 0;
+    color: seashell;
+    line-height: 1.4;
 }
 
 /* ---- Footer Styling ---- */
