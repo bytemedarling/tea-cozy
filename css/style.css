@@ -65,7 +65,7 @@ header {
     background-image: url("../CCP/background.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    height: 43.75rem;
+    max-height: 43.75rem;
     width: 100%;
     margin-top: 69px;
     display: flex;
@@ -79,7 +79,7 @@ header {
     color: seashell;
     font-family: Helvetica;
     opacity: 0.9;
-    width: 1200px;
+    max-width: 1200px;
 }
 
 /* ----- Tea Section Styling ---- */
