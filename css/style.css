@@ -165,6 +165,7 @@ header {
 /* ---- Location Card Styling ---- */
 .cards-container {
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center
     gap: 40px;
@@ -180,6 +181,7 @@ header {
     opacity: 1;
     width: 18.75rem;
     padding: 40px;
+    box-sizing: border-box;
 }
 
 .cards h3, .cards p {
