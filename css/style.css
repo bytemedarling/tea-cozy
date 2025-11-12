@@ -180,8 +180,7 @@ header {
     color: seashell;
     opacity: 1;
     width: 18.75rem;
-    padding: 0 40px;
-    box-sizing: border-box;
+    padding: 40px;
 }
 
 .cards h3, .cards p {
