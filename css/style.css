@@ -80,8 +80,7 @@ header {
     font-family: Helvetica;
     font-size: 22px;
     opacity: 0.9;
-    width: 90%;
-    max-width: 1200px;
+    width: 1200px;
 }
 
 /* ----- Tea Section Styling ---- */
@@ -108,8 +107,7 @@ header {
 
 .card img {
     height: 12.5rem;
-    width: 100%;
-    height: auto;
+    width: 18.75rem;
     object-fit: cover;
 }
 
