@@ -7,6 +7,11 @@ body {
     background: black;
 }
 
+.mission-background,
+.location-background {
+  background-size: cover;
+}
+
 /* ---- Logo Styling Below ---- */
 .logo {
     max-height: 50px;
@@ -80,7 +85,8 @@ header {
     font-family: Helvetica;
     font-size: 22px;
     opacity: 0.9;
-    width: 1200px;
+    width: 90%;
+    max-width: 1200px;
 }
 
 /* ----- Tea Section Styling ---- */
@@ -107,7 +113,8 @@ header {
 
 .card img {
     height: 12.5rem;
-    width: 18.75rem;
+    width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
@@ -212,4 +219,47 @@ footer {
     opacity: 0.9;
     text-align: center;
     height: 12.5rem;
+}
+
+/* ---- Mobile Styling ---- */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .navigation ul {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .mission-info {
+    font-size: 18px;
+    width: 95%;
+  }
+
+  .container {
+    flex-direction: column; /* stack tea cards vertically */
+    align-items: center;
+  }
+
+  .card {
+    width: 90%; /* cards shrink to fit mobile */
+  }
+
+  .cards-container {
+    flex-direction: column; /* stack location cards */
+    gap: 20px;
+  }
+
+  .cards {
+    width: 90%;
+  }
+
+  footer, .footer {
+    font-size: 16px;
+    text-align: center;
+  }
 }
