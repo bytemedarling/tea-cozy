@@ -160,7 +160,7 @@ header {
     justify-content: center;
     text-align: center;
     opacity: 0.9;
-    padding-bottom: 15px;
+    
 }
 
 /* ---- Location Card Styling ---- */
@@ -181,6 +181,7 @@ header {
     opacity: 1;
     width: 18.75rem;
     padding: 40px;
+    padding-top: 15px;
 }
 
 .cards:hover {
